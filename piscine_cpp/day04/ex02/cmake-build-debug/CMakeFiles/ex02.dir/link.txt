@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex02.dir/main.cpp.o CMakeFiles/ex02.dir/AssaultTerminator.cpp.o CMakeFiles/ex02.dir/Squad.cpp.o CMakeFiles/ex02.dir/TacticalMarine.cpp.o  -o ex02 
