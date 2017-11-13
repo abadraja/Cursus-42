@@ -1,0 +1,83 @@
+/*
+	t_list aux;
+	aux.content = &scene_sphere;
+
+	scene_objects = NULL;
+	ft_lstadd(&scene_objects, &aux);
+
+	printf("%.2f\n", LCONT(scene_objects, t_sphere*)->radius);
+*/
+/*
+	t_object aux;
+	aux.planes = &scene_plane;
+	aux.shperes = &scene_sphere;
+
+	t_list auxEmil;
+	auxEmil.content = &aux;
+	scene_objects = NULL;
+
+	ft_lstadd(&scene_objects, &auxEmil);
+
+	printf("%.2f\n", LCONT(scene_objects, t_object*)->planes->distance);
+*/
+	//ft_objadd(&scene_objects, &scene_plane);
+
+	// ft_lstdel(&scene_objects, &delete_standard);
+
+	// if (LCONT(scene_objects, t_plane*)->type == T_PLANE)
+	// 	printf("it's a plane\n");
+	// else if (LCONT(scene_objects, t_plane*)->type == T_SPHERE)
+	// 	printf("it's a sphere\n");
+
+	
+
+	//scene_objects.push_back(dynamic_cast<Object*>(&scene_sphere));
+	//scene_objects.push_back(dynamic_cast<Object*>(&scene_plane));
+
+// t_sphere1 *new_sphere(double r)
+// {
+// 	static t_sphere1	result;
+
+// 	result.type = T_SPHERE;
+// 	result.radius = r;
+// 	result.x_offset = -1;
+// 	return &result;
+// }
+
+// t_plane1 *new_plane(double distance)
+// {
+// 	static t_plane1		result;
+
+// 	result.type = T_PLANE;
+// 	result.distance = distance;
+// 	result.c = 'e';
+// 	return &result;
+// }
+
+// void emil()
+// {
+// 	// Store all types of object
+// 	t_list	*scene_objects;
+
+// 	scene_objects = NULL;
+
+// 	//Vrei sa adaug o sfera
+// 	t_list *my_new_sphere;
+
+// 	my_new_sphere = ft_lstnew(new_sphere(1), sizeof(t_sphere1));
+
+// 	//Adaugam sfera in scene_objects
+// 	ft_lstadd(&scene_objects, my_new_sphere);
+// 	ft_lstadd(&scene_objects, ft_lstnew(new_sphere(2), sizeof(t_sphere1)));
+// 	ft_lstadd(&scene_objects, ft_lstnew(new_plane(3), sizeof(t_plane1)));
+// 	ft_lstadd(&scene_objects, ft_lstnew(new_sphere(2), sizeof(t_sphere1)));
+
+
+// 	if (LCONT(scene_objects, t_plane1*)->type == T_PLANE)
+// 		printf("it's a plane\n");
+// 	else if (LCONT(scene_objects, t_plane1*)->type == T_SPHERE)
+// 		printf("it's a sphere\n");
+
+
+// 	//printf("%.2f\n", LCONT(scene_objects, t*)->distance);
+// }
